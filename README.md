@@ -91,7 +91,7 @@ export CUDA_HOME=/path/to/cuda
 
 export CUDNN_Lib=/path/to/cudnn/lib
 
-# resnet50/resnet50int8/swint
+# resnet18/resnet18int8/resnet18int8head
 export DEBUG_MODEL=resnet18int8
 
 # fp16/int8
@@ -118,6 +118,7 @@ bash tool/run.sh
 ```
 
 ## PTQ and export ONNX
+details will be described in future 
 - PTQ
 ```bash
 python ptq_bev.py
