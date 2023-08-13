@@ -10,7 +10,7 @@ This repository contains sources and model for [Fast-BEV](https://github.com/Sen
 
 
 |         **Model**        | **Framework** | **Precision** | **mAP** | **FPS** |
-|:------------------------:|:-------------:|:-------------:|:-------:|:-------:|:----------------:|
+|:------------------------:|:-------------:|:-------------:|:-------:|:-------:|
 | ResNet18 |    TensorRT    |   FP16   |  24.3  |   113.6(on RTX2080Ti)        |
 | ResNet18-PTQ         |    TensorRT   | FP16+INT8     |  23.89  |  143.8  |
 | ResNet18-head-PTQ    | TensorRT      | FP16 + INT8 |  23.83       |   144.9        |
