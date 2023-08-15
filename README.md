@@ -8,8 +8,7 @@ This repository contains sources and model for [Fast-BEV](https://github.com/Sen
   - The camera resolution is 256x704
   - Backbone is ResNet18, without DCN
 
-
-|         **Model**        | **Framework** | **Precision** | **mAP** | **FPS** |
+|         **Model**        | **Framework** | **Precision** | **mAP** | **FPS** | 
 |:------------------------:|:-------------:|:-------------:|:-------:|:-------:|
 | ResNet18 |    TensorRT    |   FP16   |  24.3  |   113.6(on RTX2080Ti)        |
 | ResNet18-PTQ         |    TensorRT   | FP16+INT8     |  23.89  |  143.8  |
@@ -17,11 +16,11 @@ This repository contains sources and model for [Fast-BEV](https://github.com/Sen
 
 
 ## Model and Data
-- For quick practice, I provide an example data of nuScenes. It contains the following:
+- For quick practice, I provide an example data of nuScenes.You can download from [Google Drive](https://drive.google.com/file/d/14-fqrtbC5ZOWgkNA0m7jA7bQAySrzLrm/view?usp=sharing) It contains the following:
   1. Camera images in 6 directions.
   2. Transformation matrix of camera/lidar and vtrans need data.
 
-- All models (model.zip) can be downloaded later.It contains the following:
+- All models (model.zip) can be downloaded from [Google Drive](https://drive.google.com/file/d/1wwwckM0vux5ub3U4R_zS9pm01QFmMPru/view?usp=sharing) .It contains the following:
   1. fastbev onnx models and pytorch models.
   2. resnet18 int8 onnx and PTQ models.
 
@@ -117,8 +116,7 @@ bash tool/build_trt_engine.sh
 bash tool/run.sh
 ```
 
-## PTQ and export ONNX
-details will be described in future 
+## PTQ and export ONNX 
 - PTQ
 ```bash
 python ptq_bev.py
