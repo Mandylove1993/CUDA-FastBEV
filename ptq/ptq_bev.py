@@ -1,10 +1,3 @@
-/*
- * @Author: Mandy 
- * @Date: 2023-08-13 13:18:08 
- * @Last Modified by: Mandy
- * @Last Modified time: 2023-08-13 13:23:54
- */
-
 import argparse
 import os
 import random

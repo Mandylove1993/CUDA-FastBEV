@@ -1,10 +1,3 @@
-/*
- * @Author: Mandy 
- * @Date: 2023-08-13 13:23:41 
- * @Last Modified by:   Mandy 
- * @Last Modified time: 2023-08-13 13:23:41 
- */
-
 import argparse
 from argparse import ArgumentParser
 import math
