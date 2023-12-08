@@ -138,8 +138,4 @@ python export_onnx.py
 - [https://github.com/NVIDIA-AI-IOT/Lidar_AI_Solution]
 
 
-Welcome everyone to scan the QR code to follow my new official account and learn and make progress together.  
-欢迎大家扫码关注我的新公众号，一起学习一起进步  
-
-![扫码关注博主，进入AI深度之眸](https://github.com/Mandylove1993/CUDA-FastBEV/assets/39931840/13200a43-2e49-4575-809d-1f601e6d1a68)
 
